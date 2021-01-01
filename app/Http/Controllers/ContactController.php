@@ -43,8 +43,8 @@ class ContactController extends Controller
         $contact = Contact::find($id);
 
         $contact->where('id', $id)->update([
-           'firstName' =>  $request->fName,
-           'lastName' =>  $request->lName,
+           'fName' =>  $request->firstName,
+           'lName' =>  $request->lastName,
            'email' =>  $request->email,
         ]);
         return redirect()->route('index');

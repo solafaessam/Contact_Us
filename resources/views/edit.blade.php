@@ -11,13 +11,13 @@
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label for="inputFirstName">First Name</label>
-                                <input type="text" class="form-control" name="firstName" id="inputFirstName" value="{{$contact->firstName}}" required>
+                                <input type="text" class="form-control" name="firstName" id="inputFirstName" value="{{$contact->fName}}" required>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label for="inputLastName">Last Name</label>
-                                <input type="text" class="form-control" name="lastName" id="inputLastName" value="{{$contact->lastName}}" required>
+                                <input type="text" class="form-control" name="lastName" id="inputLastName" value="{{$contact->lName}}" required>
                             </div>
                         </div>
                     </div>
